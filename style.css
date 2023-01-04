@@ -27,6 +27,8 @@
     color: white;
     height: 60px;
     box-shadow: 1px 1px 13px grey;
+    position: fixed;
+    width: 100%;
 }
 .menu ul{
     display: flex;
@@ -57,6 +59,7 @@
     align-items: center;
     background-color: rgb(224, 228, 224);
     padding: 0px 100px !important;
+    padding-top: 50px !important;
 }
 .slide img{
     width: 550px;
@@ -84,5 +87,6 @@
 }
 .banner_under{
     color: greenyellow;
-    margin-top: 1px !important;
+    margin: 1px auto !important;
+    width: 90%;
 }
