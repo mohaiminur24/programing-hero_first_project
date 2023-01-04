@@ -1,0 +1,37 @@
+*{
+    margin: 0px !important;
+    padding: 0px ;
+    background-color: transparent;
+    font-family: 'Mukta', sans-serif;
+
+    
+
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(63, 61, 61);
+    align-items: center;
+    color: white;
+    height: 60px;
+}
+.menu ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    align-items: center;
+}
+.header h2{
+    margin-left: 100px !important;
+
+}
+.menu{
+    margin-right: 100px !important;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+}
+.menu ul li a:hover{
+    color: wheat;
+}
