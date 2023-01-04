@@ -7,13 +7,26 @@
     
 
 }
+.btn-primary{
+    background-color: yellowgreen;
+    border: none;
+    border-radius: 5px;
+    width: auto;
+    height: 35px;
+    transition: .5s;
+    margin-top: 10px !important;
+}
+.btn-primary:hover{
+    transform: scale(1.1);
+}
 .header{
     display: flex;
     justify-content: space-between;
-    background-color: rgb(63, 61, 61);
+    background-color: rgb(153, 151, 151);
     align-items: center;
     color: white;
     height: 60px;
+    box-shadow: 1px 1px 13px grey;
 }
 .menu ul{
     display: flex;
@@ -34,4 +47,38 @@
 }
 .menu ul li a:hover{
     color: wheat;
+}
+
+/* banner start */
+
+.slide{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(224, 228, 224);
+    padding: 0px 100px !important;
+}
+.slide img{
+    width: 550px;
+}
+.slide_data p{
+    color: grey;
+    font-size: 30px;
+    font-weight: 200px;
+}
+.slide_data h1{
+    font-size: 50px;
+    color: yellowgreen;
+}
+.slide_data h3{
+    color: black;
+}
+.slide_data a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 25px;
+}
+.banner_under{
+    color: greenyellow;
+    margin-top: 1px !important;
 }
