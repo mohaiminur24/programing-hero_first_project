@@ -65,6 +65,7 @@
     color: grey;
     font-size: 30px;
     font-weight: 200px;
+    margin-top: 19%!important;
 }
 .slide_data h1{
     font-size: 50px;
@@ -77,6 +78,9 @@
     text-decoration: none;
     color: white;
     padding: 10px 25px;
+}
+.slide_data{
+    line-height:40px;
 }
 .banner_under{
     color: greenyellow;
