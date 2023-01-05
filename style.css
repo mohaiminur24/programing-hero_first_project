@@ -267,3 +267,70 @@ table td{
     margin-bottom: 40px !important;
 
 }
+/* contact from start */
+
+.map{
+    width: 83%;
+    height: 400px;
+    margin: 50px 50px !important;
+}
+.form form input{
+    display: block;
+    width: 80%;
+    height: 40px;
+    margin: 5px auto !important;
+    border: 1px solid grey;
+    padding-left: 10px;
+    border-radius: 4px;
+    color: black;
+    outline: none;
+}
+.form{
+    width: 600px;
+    height: auto;
+    background-color: rgb(239, 248, 253);
+    opacity: 90%;
+    border-radius: 12px;
+    box-shadow: 1px 1px 5px grey;
+    position: absolute;
+    right: 50px;
+    bottom: 50px;
+    padding-top: 10px;
+}
+#submit{
+    background-color: yellowgreen;
+    border: none;
+}
+.form textarea{
+    max-width: 78%;
+    max-height: 100px;
+    min-width: 78%;
+    min-height: 100px;
+    margin-left: 9.2%!important;
+    border-radius: 4px;
+    padding: 10px 10px;
+    margin-top: 5px!important;
+}
+.form form{
+    padding: 25px 25px;
+}
+#contact{
+    position: relative;
+}
+table td{
+    border-bottom: 1px dotted rgb(222, 220, 220);
+}
+#contact{
+    background-color: rgb(240, 248, 228);
+    padding-bottom: 150px;
+    padding-top: 5px;
+    margin: 100px 50px !important;
+    border-radius: 10px;
+    
+}
+.flex{
+    display: flex;
+    gap: 10px;
+    width: 82%;
+    margin: auto !important;
+}
