@@ -23,13 +23,14 @@
 .header{
     display: flex;
     justify-content: space-between;
-    background-color: rgb(153, 151, 151);
+    background-color: rgb(234, 249, 226);
     align-items: center;
-    color: white;
+    color: black;
     height: 60px;
     box-shadow: 1px 1px 2px grey;
-    position: fixed;
+    position:fixed;
     width: 100%;
+    z-index: 10;
 }
 .menu ul{
     display: flex;
@@ -46,10 +47,10 @@
 }
 .menu ul li a{
     text-decoration: none;
-    color: white;
+    color: black;
 }
 .menu ul li a:hover{
-    color: wheat;
+    color: yellowgreen;
 }
 
 /* banner start */
@@ -58,12 +59,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(224, 228, 224);
+    background-color: rgb(230, 251, 230);
     padding: 0px 100px !important;
     padding-top: 50px !important;
 }
 .slide img{
-    width: 550px;
+    width: 100vh;
 }
 .slide_data p{
     color: grey;
@@ -333,4 +334,18 @@ table td{
     gap: 10px;
     width: 82%;
     margin: auto !important;
+}
+
+/* footer start */
+
+footer{
+    width: 100%;
+    background-color: rgb(235, 251, 206);
+    height: 100px;
+    color: grey;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 80%;
 }
