@@ -13,11 +13,11 @@
     border-radius: 5px;
     width: auto;
     height: 35px;
-    transition: .5s;
+    transition: .3s;
     margin-top: 10px !important;
 }
 .btn-primary:hover{
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 .header{
     display: flex;
@@ -26,7 +26,7 @@
     align-items: center;
     color: white;
     height: 60px;
-    box-shadow: 1px 1px 13px grey;
+    box-shadow: 1px 1px 2px grey;
     position: fixed;
     width: 100%;
 }
@@ -88,5 +88,6 @@
 .banner_under{
     color: greenyellow;
     margin: 1px auto !important;
-    width: 90%;
+    width: 100%;
+    opacity: 40%;
 }
