@@ -91,3 +91,76 @@
     width: 100%;
     opacity: 40%;
 }
+
+/* about section start */
+
+.about_me{
+    display: flex;
+}
+.expert{
+    display: flex;
+    gap: 10px;
+}
+.about{
+    width: 50%;
+    margin: 50px 50px !important;
+}
+.skill{
+    width: 50%;
+    margin: 50px 50px !important;
+}
+.about h1{
+    margin-bottom: 10px !important;
+    font-size: 4rem;
+    color: yellowgreen;
+}
+.grey{
+    color: grey;
+    opacity: 80%;
+}
+table{
+    margin-top: 30px!important;
+}
+table td{
+    width: 150px;
+}
+.info{
+    color: grey;
+    width: 400px;
+}
+.about table{
+    color: yellowgreen;
+    font-weight: 900px;
+}
+
+.skill h3{
+    margin-top: 100px !important;
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    margin-bottom: 20px !important;
+}
+.my_skill h2{
+    font-size: 2rem;
+    margin: 20px 0px !important;
+}
+.graphic{
+    padding: 40px 40px;
+    text-align: center;
+    background-color: rgb(233, 231, 231);
+    border-radius: 10px;
+    color: black;
+    transition: .3s;
+    border: 1px solid rgb(233, 247, 212);
+}
+.graphic:hover{
+    transform: scale(1.05);
+
+}
+.fa-solid, .fas{
+    font-size: 30px;
+    color: yellowgreen;
+}
+.my_skill td{
+    font-size: 1.2rem;
+    font-weight: 900px;
+}
