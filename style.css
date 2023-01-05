@@ -207,3 +207,63 @@ table td{
     color: yellowgreen;
     margin-bottom: 5px !important;
 }
+.tittle{
+    text-align: center;
+    font-size: 4rem;
+    margin-top: 50px!important;
+}
+.description{
+    width: 70%;
+    margin: auto !important;
+    text-align: center;
+    color: grey;
+    margin-bottom: 20px !important;
+
+}
+#service{
+    background-color: rgb(232, 245, 247);
+    overflow: hidden;
+    padding: 0px 50px;
+}
+.box{
+    padding: 40px 50px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 10px;
+}
+.service_box{
+    display: flex;
+    margin: 15px 0px !important;
+    gap: 15px;
+}
+.blog-box img{
+    width: 100%;
+    height: auto;
+    transition: .5s;
+    z-index: 4;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 25px;
+}
+.b-article{
+    display: flex;
+    gap: 40px;
+    padding: 50px 50px;
+}
+.blog-box{
+    background-color: rgb(242, 242, 251);
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+.blog-box p{
+    padding: 5px 30px;
+    z-index: 5;
+}
+.p-tittle{
+    font-size: 1.5rem;
+    font-weight: 900px;
+}
+.p-date{
+    color: grey;
+    margin-bottom: 40px !important;
+
+}
